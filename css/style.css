@@ -220,30 +220,3 @@ body {
 .textinput:focus {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
-.new-style-list {
-	font-size: 24px;
-	line-height: 30px;
-	margin-left: 50px;
-}
-.new-style-list :nth-child(1) {
-	font-style: oblique;
-	color: blue;
-	font-weight: 700;
-}
-.new-style-list :nth-child(2) {
-	text-decoration: underline;
-	color: rgb(72, 190, 135);
-}
-.new-style-list li::before {
-	content: "";
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	display: inline-block;
-	margin: 0px 10px 0px 0px;
-	background-color: #eb2b3e;
-}
-.new-style-list li:hover::before {
-	background-color: rgb(243, 247, 247);
-}
